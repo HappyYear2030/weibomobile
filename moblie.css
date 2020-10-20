@@ -1,0 +1,112 @@
+body
+{
+    margin: 0;/*外边距*/
+    padding: 0;/*内边距*/
+    font-family: Times New Roman;/*为body中设置字体*/
+    background-color: RGB(240,240,240);
+    font-size:18px;
+    line-height:150%;
+}
+li{
+    display: inline;
+    margin-right: 35px;
+    position: relative;
+    right: 10px;
+    color: grey;
+}
+.imgdiv{
+    max-width: 200px;
+    height: 200px;
+}
+.little{
+    display:inline-block;
+    color: #777777;
+    font-size: 15px;
+    padding: -10px;
+    margin: -20px 0 0px 0;
+}
+.now{
+    color: black;
+    font-size: 20px;
+}
+.id{
+    width:40px;
+    height:40px;
+    border-radius:50%; 
+    overflow:hidden;
+    float: left;
+    margin-right: 10px;
+}
+.tubiao{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 12px;
+}
+.dontmove{
+    position:fixed;
+    
+    background-color: #f9f9f9;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 730px;
+    border-style: solid; 
+    border-width: 0px 0px 0.5px 0px;
+    border-color: #DCDCDC;
+    z-index: 1;
+    
+}
+.input-box
+{
+    
+    border-radius: 50px;/*给边框设置10像素弧度的转角*/
+    padding: 10px;/*内边距*/
+    margin: 0px auto;/*外边距*/
+    width: 80%;/*设置宽度*/
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;/*给边框设置1像素的宽度 实线 颜色为灰色*/
+    outline: none;/*边框外轮廓线无*/
+    font-size: 15px;
+    font-weight: 400;
+    color: #b5b5b5;
+    columns: #999999;
+}
+.lie{
+    position: relative;
+    right: 40px;
+    top: 5px;
+    float: left;
+    width: 100%;
+    margin: 12px;
+}
+.firstdiv{
+    margin-top: 120px;
+}
+.float{
+    
+    width: 40%;
+}
+.center
+{
+    width: 750px;/*设置宽度*/
+    background: #ffffff;/*背景色*/
+    padding: 0px;/*内边距*/
+    margin: 0 auto 0;/*外边距*/
+    text-align: left;/**/
+}
+.long{
+    position: relative;
+    right: 20px;
+    width: 750px;
+    color: #b5b5b5;
+    border-width: 0 0 0.5px 0;
+    z-index: 0;
+}
+.divdiv{
+    padding: 20px;
+
+}
+.div{
+    border-style: solid; 
+    border-width: 0px 0px 0.5px 0px;
+}
